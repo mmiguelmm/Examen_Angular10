@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Examen-Angular10"
+    }
+  },
+  "defaultProject": "Examen-Angular10",
+  "cli": {
+    "analytics": "0cd83cf2-fd36-465d-9615-4fb19dfd97f6"
+  }
 }
