@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+import { NotFoundPageComponent } from './core/pages/not-found-page/not-found-page.component';
 
 const routes: Routes = [
 
@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'forms',
     loadChildren: () => import('./modules/forms/forms-routing.module').then(m => m.FormsRoutingModule)
+  },
+  {
+    path: '**',
+    component: NotFoundPageComponent
   }
 
 ];
